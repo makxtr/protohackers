@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for go-rough-smoke-8608 on 2025-12-06T12:46:36+02:00
+# fly.toml app configuration file for protohackers
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -23,7 +23,7 @@ primary_region = 'fra'
   [[services.ports]]
     port = 10000
     handlers = []
-  
+
   [[services.tcp_checks]]
     interval = "10s"
     timeout = "2s"
