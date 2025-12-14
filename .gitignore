@@ -1,6 +1,6 @@
 .idea
 
 # Binaries
-server
+# server
 client
 *.exe
